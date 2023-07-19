@@ -1,0 +1,12 @@
+.app {
+    box-sizing: border-box;
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../assets/imagenes/fondo.jpg'); /* Cambiar 'ruta-de-tu-imagen.jpg' por la URL o la ruta relativa a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}

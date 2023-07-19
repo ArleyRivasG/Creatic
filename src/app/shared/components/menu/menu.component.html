@@ -1,0 +1,16 @@
+<nav class="menu">
+    
+    <ul class="nav-links">
+        <li *ngFor="let item of menu" 
+            class="bar" 
+            [routerLink]="item.ruta"
+            routerLinkActive="active">
+
+            {{ item.texto }}
+
+        </li>
+    </ul>
+    <div class="menu-icon"></div>
+</nav>
+
+
